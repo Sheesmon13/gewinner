@@ -1,0 +1,95 @@
+/* Slider navigation end */
+
+@media only screen and (max-width: 768px) {
+  nav {
+  text-align: center;
+}
+  nav a {
+    font-size: 1.5em;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  
+  .video-box iframe, .learning-img-box img {
+    max-width: 100%;
+  }
+  .sec-titles h2 {
+    font-size: 24px;
+}
+.sec-titles p {
+    font-size: 14px;
+}
+.feature-box {
+    padding: 15px;
+}
+.icon-box {
+    font-size: 24px;
+}
+}
+
+@media (max-width: 576px) {
+  .learning-heading h3 {
+    font-size: 24px;
+  }
+
+  .learning-heading h5 {
+    font-size: 16px;
+  }
+  .video-container figure img {
+    max-width: 100%;
+}
+.image-block {
+    flex-direction: column;
+}
+.image-1 {
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+}
+@media (max-width: 767px) {
+  .video-text{
+    margin-bottom: 30px;
+  }
+  .learning-img-box{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .footer-main{
+    border: none;
+  }
+  .footer-date{
+    border: none;
+  }
+  .features{
+    margin-bottom: 50px;
+  }
+  .why-choose-image img{
+    padding-bottom: 20px;
+  }
+  .gallery-section{
+  margin-top: 10px;
+  }
+  .chooseus-section .row {
+    flex-direction: column;
+}
+.chooseus-section .image-column, 
+.chooseus-section .content-column {
+    padding: 0;
+}
+.sec-titles p  {
+  overflow: hidden !important;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .single-feature {
+    padding-right: 100px;
+  }
+}
